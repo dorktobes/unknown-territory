@@ -1,12 +1,14 @@
 # unknown-territory
 
 ## Project setup
-```
+```js
 npm run setup
-```
-if running npm v6 or higher
-```
+
+// if you're running npm v6 or higher
 npm ci
+
+// if running an earlier version of npm
+npm i
 ```
 
 Your task is to make a "hello world" app in vue.js

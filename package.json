@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "setup": "npm i -g @vue/cli",
-    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
+    "serve": "json-server db.json",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "json-server": "^0.14.0",
     "vue": "^2.5.17"
   },
   "devDependencies": {

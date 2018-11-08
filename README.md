@@ -11,7 +11,15 @@ npm ci
 npm i
 ```
 
-Your task is to make a "hello world" app in vue.js
+Your task is to make a "users list" app in vue.js
+
+your app should: 
+[] have an h1 header to label the list
+[] have an `App` component
+[] have a `user` component
+[] dynamically render the list of users
+
+you have an endpoint available at `http://localhost:3000/users` to retrieve all users
 
 This project is setup to work with the *single page component* instantiation style
 
@@ -19,6 +27,10 @@ You may use official docs and you may debug using stack overflow
 
 ## When you're ready to see your app, run the below script.
 ### Compiles and hot-reloads for development
+```
+npm start
+```
+### starts the json-server
 ```
 npm run serve
 ```

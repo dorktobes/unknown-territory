@@ -2,13 +2,28 @@
 
 ## Project setup
 ```
-npm install
+npm run setup
+```
+if running npm v6 or higher
+```
+npm ci
 ```
 
+Your task is to make a "hello world" app in vue.js
+
+This project is setup to work with the *single page component* instantiation style
+
+You may use official docs and you may debug using stack overflow
+
+## When you're ready to see your app, run the below script.
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
+
+
+
+# extras
 
 ### Compiles and minifies for production
 ```
